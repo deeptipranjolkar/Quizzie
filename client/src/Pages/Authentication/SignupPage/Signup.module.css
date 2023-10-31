@@ -1,0 +1,69 @@
+body {
+    overflow: hidden;
+  }
+.signupCont {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.fieldInputCont {
+    margin-top: 24px;
+}
+.formCont {
+    color: #474444;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 32px;
+    text-align: right;
+}
+.some {
+    width: 388px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 10px 10px 0px 0px;
+    background: #F4F4F4;
+    border: none;
+    padding: 0px 12px;
+    outline: none;
+}
+
+.some::placeholder {
+    color: #D60000;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.formError {
+    border: 1px solid #D60000;
+}
+
+.submitCont {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 24px;
+}
+
+.submitButton {
+    width: 274px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #A9BCFF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #474444;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}

@@ -1,0 +1,68 @@
+.sidebarContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 191px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 16px 6px;
+}
+
+.icon {
+    color: #474444;
+    font-family: 'Jomhuria', sans-serif;
+    font-size: 69px;
+    font-weight: 395;
+    line-height: normal;
+    margin-top: 0;
+}
+
+.menuContainer {
+    padding-left: 0;
+    margin: 0;
+}
+
+.menuItemContainer {
+    list-style-type: none;
+    color: #474444;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    padding: 4px 22px;
+    margin: 36px 0;
+}
+
+.activeNav {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.12);
+}
+
+.logoutContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.horizontalDivider {
+    width: 100%;
+}
+
+hr {
+    width: 100%;
+}
+
+.logoutButton {
+    color: #474444;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 699;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}

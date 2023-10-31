@@ -1,0 +1,52 @@
+body {
+    overflow: hidden;
+}
+
+.authorizationBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 24px 48px;
+    min-width: 79%;
+    min-height: 571px;
+}
+
+.authButton {
+    border-radius: 9px;
+    background: #FFF;
+    box-shadow: 0px 0px 50px 0px rgba(0, 25, 255, 0.24);
+}
+
+.authorizationContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F2F2;
+    min-height: 100vh;
+}
+
+.appIcon {
+    color: #474444;
+    font-family: 'Jomhuria', serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 0 24px 0;
+}
+
+.authButton {
+    color: #474444;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    width: 217px;
+    height: 37px;
+    flex-shrink: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

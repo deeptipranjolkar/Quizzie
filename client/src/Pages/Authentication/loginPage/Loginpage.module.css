@@ -1,0 +1,80 @@
+body {
+    overflow: hidden;
+}
+
+.fieldInputContainer {
+    margin-top: 25px;
+}
+
+.loginContainer {
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 72px;
+    display: flex;
+   
+}
+
+.formError {
+    border: 1px solid #D60000;
+}
+
+.submitContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 24px;
+}
+
+.apiCallError {
+    color: red;
+    width: 100%;
+    text-align: center;
+}
+
+.formLabel {
+    color: #474444;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 32px;
+    text-align: right;
+}
+
+.submitButton {
+    width: 273px;
+    height: 37px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #A9BCFF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #474444;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 602;
+    line-height: normal;
+}
+
+.inputField {
+    width: 387px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 10px 10px 0px 0px;
+    background: #F4F4F4;
+    border: none;
+    padding: 0 12px;
+    outline: none;
+}
+
+.inputField::placeholder {
+    color: #D60000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
